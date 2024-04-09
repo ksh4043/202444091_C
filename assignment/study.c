@@ -18,11 +18,11 @@ int main(){
     if(a!=0){
         checkNumber(a);
     }else{
-        while(a==0){
+        while(____){
             printf("잘못된 입력입니다. 다시 입력해주세요 : ");
             scanf("%d", &a);
 
-            if(____){
+            if(a!=0){
                 checkNumber(a);
             }
         }

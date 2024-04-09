@@ -15,14 +15,14 @@ int main(){
     printf("정수를 입력하세요 : ");
     scanf("%d", &a);
 
-    if(a!=0){
+    if(a!=0 && a > 0){
         checkNumber(a);
     }else{
-        while(a==0){
+        while(a==0 || a < 0){
             printf("잘못된 입력입니다. 다시 입력해주세요 : ");
             scanf("%d", &a);
 
-            if(a!=0){
+            if(a!=0 && a > 0){
                 checkNumber(a);
             }
         }
